@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day6</title>
+    <style>
+        #back{
+            background-color: brown;
+            /* transform: translatex(400px);
+            transform: rotate(30deg); */
+            height: 400px;
+            width: 200px;
+/*            
+            animation-name: img; */
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes img {
+            0%{
+                background-color: black;
+                border-radius: 1000%;
+           
+            }
+            50%{
+                background-color: red;
+                border-radius: 1000%;
+               
+            }
+            100%{
+                background-color: yellow;
+                border-radius: 1000%;
+                transform: translateY(1000px);
+              
+            }
+        }
+        /* #back:hover{
+            transform: scale(110%) !important;
+            transform: rotate(20deg);
+        } */
+    </style>
+</head>
+<body>
+    <div id="back"></div>
+</body>
+</html>
