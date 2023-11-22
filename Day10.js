@@ -24,7 +24,10 @@ console.log(str.matchAll("i"))
 // so we need to chsange from mathcAll to array
 
 let convertToArray=str.matchAll("i")
-// console.log(Array.from(convertToArray))
-// console.log("--------------------------")
 
-console.log(Array.from(convertToArray)[1].index,"---->two dimanesional array")
+
+console.log(Array.from(convertToArray)[1][0],"---->two dimanesional array")
+
+
+                  // let nam=Array.from(convertToArray)
+                         // console.log(nam[1][0])
