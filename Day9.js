@@ -44,6 +44,7 @@ for (let f in obj) {
 let arr2 = ["dk1", "dk2", "dk3"]
 arr2[5] = "dk5"
 console.log(arr2)
+console.log("-------------------")
 
 // inbuilt method
 let str="say my name"
@@ -51,7 +52,7 @@ console.log(str)
 let spli=str.split(" ")
 console.log(spli,"---> strToArray")
 for(let i=0;i<spli.length;i++){
-    console.log(i,"---> countArrayLength")
+    console.log(i,spli[i],"---> countArrayLength")
 }
 
 let user2="Dhinesh Kumar"
@@ -76,7 +77,7 @@ console.log(user2.substring(4,11),"---> substring")
 
 // substr method this method is first value is greater and we give second value is smaller lie "5,2" the output is print 2 values after the 5 index.
 
-console.log(user2.substr(5,2),"---substr")
+console.log(user2.substr(6,4),"---substr")
 
 // padstart method is used to add the lement before the value like the value is dhinesh is we use to padstart add the value before "dd" the ouput is "dddhinesh"
 // we need to given number greaterthan value length
@@ -87,9 +88,9 @@ console.log(pad.padStart(8,"dw"),"--->padStart")
 // padend method is used uesd to add value after the given value
 console.log(pad.padEnd(10,"dw"),"--->padEnd")
 
-// trime keyword used to remove space in the value
+// trim keyword used to remove space in the value
 
-let Trimm="    jonsnow    "
+let Trimm="    jonsnow  "
 console.log(Trimm,"--->before trim")
 console.log(Trimm.trim(),"--->after trim")
 
