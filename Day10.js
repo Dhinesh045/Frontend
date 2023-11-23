@@ -1,4 +1,4 @@
-str="iam dhinesh"
+str="iam dhinesh i i i i"
 
 // replace the word
 
