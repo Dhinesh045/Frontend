@@ -73,5 +73,46 @@ let reduceEx=arr1.reduce((e,i) => {
 })
 console.log(reduceEx,"---->reduce function")
 
+// "Map class" is a class is this fully differnet in "map function"
+// Map class is add value like "key value pair" 
+
+let MapEx= new Map()
+MapEx.set(1,"dhinesh")
+MapEx.set("name1","dhinesh")
+MapEx.set("name2","dk")
+MapEx.set("name1","ranjith")
+console.log(MapEx,"-----> Map class using set")
+console.log(MapEx.get(1),"-----> Map class using get")
+
+// has concept is used to give the key value if present in Map output is true if not presnt ouptu is false
+
+console.log(MapEx.has("name1"),"---> using has keyword input is key")
+console.log(MapEx.get("name2")== "dk","-----> using get keyword to compare value input is key")
+
+
+// for advance loop
+
+for( let obj of MapEx.values()) {
+    if(obj=="ranjith"){
+    console.log(obj,"-----> for advance loop  iterate the value using values ")
+    
+break
+}
+}
+
+for(let obj1 of MapEx.keys()){
+    if(MapEx.get(obj1)=="ranjith"){
+        console.log(MapEx.get(obj1),"---->print value")
+        console.log(obj1,"-----> for advance loop  iterate the value using keys")
+        break
+    }
+}
+
+//delete keyword  is using to delete the particular key value pair give the key name
+
+MapEx.delete("name1")
+console.log(MapEx,"-----> using delete keyword")
+
+
 
 
