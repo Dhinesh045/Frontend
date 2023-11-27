@@ -48,8 +48,71 @@ let userMumbai= new mumbai("update value")
   try{
   n=34
   console.log(n)
-  } catch(e){
-    console.log(e)
+  } catch(y){
+    console.log(y)
   }
 
   console.log("dhinesh")
+
+
+//   float 
+// precison is used to total count
+// fixed is sued to count after the point
+
+let y = 23.4738
+console.log(y.toPrecision(5),"---->precision")
+console.log(y.toFixed(2),"----> fixed")
+console.log(y+5)
+
+// used defined function
+
+function arithmeticOperator(a,b) {
+    if(a== "add"){
+        b=b+5
+    }
+   else {
+    b=b-5
+
+    }
+    return b
+}
+console.log("add")
+console.log(arithmeticOperator("add",10,))
+
+console.log("sub")
+console.log(arithmeticOperator("sub",4,))
+
+// IIFE Immediately Invoked Function Expression
+// anonymous is we dont use class name or function just declrre empty bracket in the below code
+
+console.log("IIFE")
+
+let anonymous=(() =>{
+    console.log("hiii")
+})
+
+()
+
+// Arrow function is same as function but we need use arrow keyword 
+// if we call arrow function using variabla name
+
+let arrowFunction=() =>{
+    console.log("Call Arrow Function")
+}
+
+arrowFunction()
+
+// Closures /Higher Order Function
+
+function Higher(){
+    return function(){
+        console.log("Closures Higher order Function","-----> higher order")
+    }
+}
+
+Higher()()
+
+// Hosting
+console.log(j)
+var j="value"
+console.log(j)
