@@ -93,6 +93,9 @@ let anonymous=(() =>{
 
 ()
 
+
+
+// Arrow function is ES6 module
 // Arrow function is same as function but we need use arrow keyword 
 // if we call arrow function using variabla name
 
