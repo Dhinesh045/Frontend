@@ -22,13 +22,8 @@ let usingPromise= new Promise((Solved,unSolved)=> {
         unSolved ("incorrect")
     }
 })
-let outPut=usingPromise.then((res)=> {
-    console.log(res)
-})
-.catch((res)=>{
-    console.log(res)
-})
-
+let outPut=usingPromise
+console.log(outPut)
 
 let i1=5
 let usingPRomise1= new Promise((Solved,unSolved)=> {
