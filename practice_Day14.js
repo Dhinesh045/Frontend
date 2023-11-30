@@ -29,15 +29,37 @@
 // }
 
 
-let val="a4b5c6"
+// let val="a4b5c6"
 
-for(i=0;i<val.length;i++){
-    if(isNaN(val.charAt(i))){
+// for(i=0;i<val.length;i++){
+//     if(isNaN(val.charAt(i))){
+//        let val1= val.charAt(i)
+//        console.log(val1.repeat(2))
    
   
+// }
+// else{
+//     console.log("error")
+// }
+
+// }
+
+let str = "j5n2b2";
+let output = "";
+
+// Loop through the string in steps of 2 characters
+for (let i = 0; i < str.length; i++) {
+  // Extract the character at the current index 'i'
+  let char = str[i];
+  // Parse the next character as an integer to determine the count
+  let count = parseInt(str[i+1]);
+
+  //console.log(`Current character: ${char}, Current count: ${count}`);
+
+  // Check if the count parsed is a valid number
+  if (!isNaN(count)) {
+    // Append 'char' repeated 'count' times to the 'output' string
+    output += char.repeat(count);
+  }
 }
-else{
-    console.log("error")
-}
-break
-}
+console.log("Output:", output);

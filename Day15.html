@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Calling an elements using various types in script -->
+<body>
+    <p class="demo1">calling a element using class</p>
+    <p class="demo1">calling a element using class 2</p>
+    <p id="demo"></p>
+    <script>
+     const x = document.getElementsByClassName("demo1");
+document.getElementById("demo").innerHTML = 
+'calling class method index(0) ' + x[1].innerHTML;
+    </script>
+
+
+<p>Finding the element using tag name</p>
+<p> Finding the element using tag name 2</p>
+<p id="tag"></p>
+
+<script>
+    const element=document.getElementsByTagName("p")
+    document.getElementById("tag").innerHTML='using tag name to find the index(4)'+ element[4].innerHTML;
+    
+</script>
+<p class="selec">calling a method using query selector</p>
+<p class="selec">calling a method using query selector 2</p>
+<p id="store"></p>
+<script>
+   const element1=document.querySelectorAll("p.selec");
+    document.getElementById("store").innerHTML='using query selector to call index(0) '+ element1[0].innerHTML;
+</script>
+
+<p id="dk"> calling an element using id</p>
+<p id="demo4"></p>
+
+<script>
+    const ele= document.getElementById("dk");
+    document.getElementById("demo4").innerHTML='Using id element'+ele.innerHTML;
+</script>
+
+<!-- update text in p -->
+
+<p id="k9">Always remember my name</p>
+
+<script>
+    document.getElementById("k9").innerHTML="say my name"
+</script>
+</body>
+</html>
