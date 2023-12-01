@@ -63,3 +63,25 @@ for (let i = 0; i < str.length; i++) {
   }
 }
 console.log("Output:", output);
+let inputString1 = "CCBBBDDDDEEEEEFFFFFFFFF";
+console.log("\nInput:", inputString1);
+
+// Split the input string into an array of characters
+let chars = inputString1.split("");
+
+// Get unique characters by converting the array to a Set and then back to an array
+let uniqueChars = Array.from(new Set(chars));
+let output1 = "";
+
+// Loop through each unique character
+uniqueChars.forEach((char) => {
+  // Count the occurrences of the current character in the original array
+  let count = chars.filter((c) => c === char).length;
+
+  // If the count is greater than 1, append the character and its count to the output
+  if (count > 1) {
+    output1 += char + count;
+  }
+
+  // console.log(`Current character: ${char}, Count: ${count}, Output: ${output1}`);
+});
