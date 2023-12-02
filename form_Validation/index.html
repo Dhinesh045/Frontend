@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <!-- defer means loaded lastly -->
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+    <form action="" id="form">
+    <h1 id="h1">Register Form</h1>
+    <div class="input-object">
+        <label for="username">UserName</label>
+        <input type="text" id="username" name="username">
+        <div class="err"></div>
+    </div>
+    <div class="input-object">
+        <label for="Email">Email</label>
+        <input type="text" id="email" name="email">
+        <div class="error"></div>
+    </div>
+    <div class="input-object">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="username">
+        <div class="error"></div>
+    </div>
+    <div class="input-object">
+        <label for="cpassword">Confirm Password</label>
+        <input type="text" id="cpassword" name="cpassword">
+        <div class="error"></div>
+    </div>
+    <button type="submit">Register</button>
+</form>
+</div>
+</body>
+</html>
