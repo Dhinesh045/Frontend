@@ -8,17 +8,24 @@
 <body>
     <p id="p1"></p>
     
-    <input onchange="getText(this)" type="text"/>
+    <input id="in1" type="text"/>
     <button id="button1" >Click to Show</button>
     <script>
+         let word;
+        document.getElementById("in1").addEventListener("change",getText)
+       
         document.getElementById("button1").addEventListener("click",writeText)
-        let word;
         function writeText(){
+            fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => {
+        document.getElementById("p1").innerHTML=JSON.stringify(json)
+      })
             document.getElementById("p1").innerHTML=word
         }
         function getText(e){
-            console.log(e.value)
-            word=e.value;
+            console.log(e.target.value)
+            word=e.target.value;
 
         }
     </script>
