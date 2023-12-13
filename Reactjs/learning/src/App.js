@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
 
 function App() {
   let word ="javascript"
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
      <p>FEEL</p>
      <p>{ word}</p>
-     <Home word ={word}/>
+    <Home/>
     </div>
   );
 }
