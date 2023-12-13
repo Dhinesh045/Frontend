@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Home({word}) {
+function Home({wors}) {
   return (
     <div>
         <p>via Soul</p>
-        <p>{word}</p>
+        <p>{wors}</p>
     </div>
   )
 }
