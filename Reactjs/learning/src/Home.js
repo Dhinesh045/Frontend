@@ -1,4 +1,5 @@
 import React from 'react'
+import Child from './Child'
 
 function Home({wors,word1}) {
   console.log("In the Home")
@@ -7,6 +8,7 @@ function Home({wors,word1}) {
         <p>via Soul</p>
         <p>{word1}</p>
         <p>{wors}</p>
+        <Child wors={wors} word1={word1} />
     </div>
   )
 }

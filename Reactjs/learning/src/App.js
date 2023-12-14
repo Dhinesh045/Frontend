@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { GlobalVariable } from './Theme';
 
 function App() {
   let word ="javascript"
@@ -52,7 +53,9 @@ function App() {
      <p>{ref?.current}</p>
      <input on onChange={(e)=>changeText(e)}/>
      <p>{word2}</p>
+     <GlobalVariable.Provider value='testCase'>
     <Home wors={word} word1={word}/>
+    </GlobalVariable.Provider>
      {Array1.map((e)=>(
       <div>
         <p>{e}</p>
