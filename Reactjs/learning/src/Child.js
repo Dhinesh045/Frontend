@@ -7,7 +7,8 @@ function Child() {
   return (
     <div>
         <p id='child'>this is from HomeJs</p>
-        <p id='child1'>{getVal}</p>
+        <p id='child1'>{getVal.age}</p>
+        <p id='child1'>{getVal.name}</p>
     </div>
   )
 }

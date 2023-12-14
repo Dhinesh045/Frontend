@@ -1,3 +1,3 @@
 import { createContext } from "react";
 
-export const GlobalVariable=createContext("Value")
+export const GlobalVariable=createContext({name:"",age:""})

@@ -53,7 +53,7 @@ function App() {
      <p>{ref?.current}</p>
      <input on onChange={(e)=>changeText(e)}/>
      <p>{word2}</p>
-     <GlobalVariable.Provider value='testCase'>
+     <GlobalVariable.Provider value={{name:word2,age:24}}>
     <Home wors={word} word1={word}/>
     </GlobalVariable.Provider>
      {Array1.map((e)=>(
