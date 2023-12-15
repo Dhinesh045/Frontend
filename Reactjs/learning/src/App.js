@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { GlobalVariable } from './Theme';
+import { Link } from 'react-router-dom';
 
 function App() {
   let word ="javascript"
@@ -32,6 +33,7 @@ function App() {
   }
   return (
     <div className="App">
+      <Link to={"/about"}>Home page</Link>
       <button onClick={()=>changeFlag()}>changeFlag</button>
       {flag== true? (
         <div>

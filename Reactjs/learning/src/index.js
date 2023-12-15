@@ -13,17 +13,16 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <div>
-        <h1>Hello World</h1>
-        <Link to="about">About Us</Link>
-      </div>
-    ),
+    element: <App/>,
   },
   {
-    path: "about",
+    path: "about/:id",
     element: <Home/>,
   },
+  {
+    path: "*",
+    element:<>No page</>
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
