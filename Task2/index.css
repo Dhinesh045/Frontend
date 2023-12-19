@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+#start{
+    font-size: 25px;
+    font-weight: 800;
+}
+#select{
+    font-weight: 900;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+#ref{
+    width: 1350px;
+    height: 40px;
+    border-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+#heading{
+    display: flex;
+    margin-top: 20px;
+    margin: 10px;
+}
+#head1{
+    padding-left: 10px;
+    font-weight: 800;
+}
+#head2{
+    font-weight: 800;
+    padding-left: 530px;
+}
+#input{
+    display: flex;
+   
+}
+#title1{
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #888888;
+}
+#title2{
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    height: 20px;
+    border-radius:10px;
+    box-shadow: 1px 1px #888888;
+}
+#ano{
+    display: flex;
+    margin: 10px;
+    
+}
+#another{
+   
+    font-weight: 800;
+}#another1{
+    padding-left: 320px;
+    font-weight: 800;
+}
+#another2{
+    padding-left: 300px;
+    font-weight: 800;
+}#box{
+    display: flex;
+}
+#box1{
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #888888;
+
+}
+#box2{
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #888888;
+}
+#box3{
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #888888;
+}
+
+#name{
+    display: flex;
+    margin: 10px;
+}
+#start1{
+    font-weight: 900;
+    font-size: 18px;
+}
+#end{
+    font-weight: 900;
+    font-size: 18px;
+    padding-left: 530px;
+}
+#date{
+    display: flex;
+}
+#date1{
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #888888;
+    font-size: 20px;
+}
+#date2{
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #888888;
+    font-size: 20px;
+}
+#coupon12{
+    font-weight: 800;
+    margin: 10px;
+}
+#myFile{
+    border: 2px solid white;
+    margin: 10px;
+    height: 50px;
+    outline: auto;
+    width: 700px;
+ padding-left: 600px;
+ padding-top: 30px;
+
+}

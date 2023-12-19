@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+    margin-bottom: 0px;
+    padding:0px;
+    
+     
+}
+#entire{
+    
+}
+#top{
+    border: 0cap;
+    background-color: rgb(145, 145, 228);
+    color: blue;
+    border-radius: 5px;
+    width: 120px;
+    padding: 5px;
+    margin: 10px;
+   text-align: center;
+ 
+}
+#top1{
+    display: flex;
+}
+.his{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0%;
+}
+#img{
+    display: flex;
+   margin: 10px;
+}
+#img1{
+    width: 50px;
+    height: 80px;
+  margin-left: 350px;
+  border-radius: 5px;
+
+}
+#obser{
+   font-size: 20px;
+   margin: 10px;
+   
+}
+#line{
+    color: gray;
+}
+#box{
+    display: flex;
+    margin: 10px;
+}
+#box1{
+    color: darkgray;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#box2{
+    color: darkgray;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 430px;
+
+}
+#num{
+    display: flex;
+    margin: 10px;
+}
+#num1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+#num2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 460px;
+}
+#box3{
+    color: darkgray;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 400px;
+
+}
+#num3{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 425px;
+}
+#box4{
+    color: darkgray;
+    font-weight: 800;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+#num5{
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 20px;
+}
+#last{
+    display: flex;
+
+}
+#green{
+    border: 2px solid #3498db;
+    border-color: green;
+    border-radius: 2px;
+    margin-left: 450px;
+    padding: 5px;
+    color: green;
+    margin-bottom: 10px;
+}
+#entire{
+    border: 2px solid #0b0f12;
+    margin: 10px;
+    margin-right: 680px;
+}
